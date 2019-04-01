@@ -1,5 +1,7 @@
 [PRACA DOMOWA 2]
 
+GithubPage: https://agnxr.github.io/praca-domowa-2/dist/index.html
+
 Rozszerzyć naszą konfigurację webpacka tak, aby:
 * kompilował SASSa
 * załączał style do projektu

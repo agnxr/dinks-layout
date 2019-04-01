@@ -1,0 +1,45 @@
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: space-between;
+}
+.contact-bar {
+    color: $font-color;
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.contact-bar__mail {
+    color: $accent-color;
+    margin-left: 5px;
+}
+
+
+.social-media {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    justify-content: flex-end;
+    align-items: center;
+    color: $font-color;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 767px){
+    .social-media, .contact-bar {
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+}
+
+.social-media__wrapper {
+    display: flex;
+} 
+.social-media__item {
+ list-style-type: none;
+ margin-right: 25px;
+}

@@ -1,0 +1,42 @@
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $primary-color;
+    margin-bottom: 0;
+    position: relative;
+    padding: 90px 40px 20px 40px;
+    list-style-type: none;
+    justify-content: center;
+    text-align: center;
+
+    & .menu__item {
+        padding-right: 70px;
+        padding-right: 4%;
+
+        & .menu__link {
+            text-decoration: none;
+            padding-bottom: 6px;
+            color: $font-color;
+
+            &:hover {
+                color: $accent-color;
+                border-bottom: 1px solid $accent-color;
+            }
+        }
+    }
+}
+
+.logo {
+    position: absolute;
+    top: 3.5%;
+    left: 95px; 
+}
+
+/* center logo on medium devices */
+@media screen and (max-width: 991.98px) {
+    .logo {
+        left: calc(50% - 80px);
+    }
+}
+
+    

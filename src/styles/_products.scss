@@ -7,7 +7,7 @@
     background-color: $primary-color;
     display: flex;
     flex-wrap: wrap;
-    max-height: 95vh;
+    max-height: 80vh;
     overflow-y: scroll;
     justify-content: center;
         &::-webkit-scrollbar {
@@ -25,15 +25,14 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 30px;
             text-align: center;
+            min-width: 150px;
+            width: 25%;
+            padding: 30px;
 
                 .product__img {
-                    width:367px;
-                    height: 367px;
                     border: 8px solid transparent;
-                    width:280px;
-                    max-width:100%;
+                    max-width: 100%;
                     height: auto;
                         &:hover {
                             border: 8px solid #fee1b5;
@@ -44,20 +43,11 @@
                 .product__name {
                     color: #fff;
                     position: absolute;
-                    font-size: 42px;
-                    font-size: 38px;
+                    font-size: 3vw;
                     top: 50%;
                     left: 50%;
                     transform: translate(-50%, -50%);
                     font-weight: bold;
-                }
-        }
-        
-}
-
-/* resize font on small devices */
-@media screen and (max-width: 767.98px) {
-    .product__name {
-        font-size: 3.5vw;
+                }      
+        }    
     }
-}

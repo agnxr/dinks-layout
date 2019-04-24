@@ -1,4 +1,4 @@
-GithubPage: https://agnxr.github.io/praca-domowa-2/dist/index.html
+GithubPage: https://agnxr.github.io/dinks-layout/dist/index.html
 
 * HTML
 * CSS/Sass 
